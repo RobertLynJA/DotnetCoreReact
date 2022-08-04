@@ -12,6 +12,9 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Persistence", "Persistence\Persistence.csproj", "{C9163BD5-C2C7-44C4-B2E9-53741FD97164}"
 EndProject
 Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "client-app", "client-app\client-app.esproj", "{B581E7B0-0CDD-4644-993D-5F6D2E3B887B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{CF4AF0DA-43D0-46C5-82B7-D12AFCC1D891} = {CF4AF0DA-43D0-46C5-82B7-D12AFCC1D891}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
